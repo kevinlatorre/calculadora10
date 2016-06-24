@@ -45,4 +45,14 @@ public class Calculadora {
     string sms(string sms){
         return "*" + sms + "*";
     }
-}
+    int intercambio(int a ,int b,int AUX){
+        {
+    
+            AUX = a;
+        a = b;
+        b= AUX;       
+        System.out.println("Valores intercambiados: A = " + a + "   B = " + b);  
+    }
+        
+    
+
